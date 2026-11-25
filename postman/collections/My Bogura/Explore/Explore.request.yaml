@@ -1,0 +1,106 @@
+$kind: http-request
+url: "{{base}}/api/v1/listings?category_id=14"
+method: GET
+queryParams:
+  - key: language
+    value: en
+    disabled: true
+    $type: |-
+      {
+        "type": "",
+        "format": "",
+        "required": false,
+        "deprecated": false,
+        "default": "",
+        "enum": [],
+        "pattern": "",
+        "minLength": "",
+        "maxLength": "",
+        "minItems": "",
+        "maxItems": "",
+        "minimum": "",
+        "maximum": "",
+        "uniqueItems": false
+      }
+  - key: category_id
+    value: "14"
+    $type: |-
+      {
+        "type": "",
+        "format": "",
+        "required": false,
+        "deprecated": false,
+        "default": "",
+        "enum": [],
+        "pattern": "",
+        "minLength": "",
+        "maxLength": "",
+        "minItems": "",
+        "maxItems": "",
+        "minimum": "",
+        "maximum": "",
+        "uniqueItems": false
+      }
+  - key: sub_category_id
+    value: "1"
+    disabled: true
+    $type: |-
+      {
+        "type": "",
+        "format": "",
+        "required": false,
+        "deprecated": false,
+        "default": "",
+        "enum": [],
+        "pattern": "",
+        "minLength": "",
+        "maxLength": "",
+        "minItems": "",
+        "maxItems": "",
+        "minimum": "",
+        "maximum": "",
+        "uniqueItems": false
+      }
+  - key: per_page
+    value: "500"
+    disabled: true
+    $type: |-
+      {
+        "type": "",
+        "format": "",
+        "required": false,
+        "deprecated": false,
+        "default": "",
+        "enum": [],
+        "pattern": "",
+        "minLength": "",
+        "maxLength": "",
+        "minItems": "",
+        "maxItems": "",
+        "minimum": "",
+        "maximum": "",
+        "uniqueItems": false
+      }
+  - key: search
+    value: Robi
+    disabled: true
+    $type: |-
+      {
+        "type": "",
+        "format": "",
+        "required": false,
+        "deprecated": false,
+        "default": "",
+        "enum": [],
+        "pattern": "",
+        "minLength": "",
+        "maxLength": "",
+        "minItems": "",
+        "maxItems": "",
+        "minimum": "",
+        "maximum": "",
+        "uniqueItems": false
+      }
+settings:
+  strictSSL: true
+order: 1000
