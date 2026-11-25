@@ -1,9 +1,11 @@
 $kind: http-request
-url: "{{base}}/api/v1/listings?category_id=14"
+url: "{{base}}/api/v1/listings"
 method: POST
 queryParams:
   - key: category_id
     value: "14"
+    disabled: true
+    description: ""
     $type: |-
       {
         "type": "",

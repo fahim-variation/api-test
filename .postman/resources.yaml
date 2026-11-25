@@ -8,6 +8,8 @@ cloudResources:
     ../postman/collections/My Bogura: 46637881-316ae9ef-c2a8-4222-a284-431d8b0a1192
   environments:
     ../postman/environments/Productions.environment.yaml: 46637881-8afacaa7-46b7-4c19-84b8-688241139ddb
+  globals:
+    ../postman/globals/workspace.globals.yaml: 5b041ddf-1948-4859-8d12-a7d97fe1c977
 
 # All resources in the `postman/` folder are automatically registered in Local View.
 # Point to additional files outside the `postman/` folder to register them individually. Example:
